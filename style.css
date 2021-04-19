@@ -1,0 +1,84 @@
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: hsl(178, 90%, 38%);
+    text-align: center;
+    height: 10mm;
+    width: 5mm;
+    max-width: 1000pt;
+    min-width: 500pt;
+    position: static;
+    display: flex;
+}
+
+h2 {
+    display: block;
+    color: yellow;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+h3 {
+    color: white;
+    display: grid;
+}
+
+li {
+    margin: 2vmin 0vmin 2vmin 2vmin;
+    padding: 2mm 0mm 2mm 2mm;
+    color: hsl(178, 90%, 38%);
+    border-style: solid;
+    border-color: #87CEEB;
+    border-width: 3Q;
+    border-radius: 500pt;
+    position: relative;
+}
+
+button:hover {
+    color: hsl(178, 90%, 38%);
+}
+
+button:active {
+    color: rgb(255, 255, 255);
+}
+
+.flex-container {
+    display: flex;
+    flex-basis: 100px;
+    flex-flow: row-reverse wrap;
+    flex-direction: row-reverse;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 300px;
+    grid-gap: 50px;
+}
+
+@media (max-width: 500px) {
+    body {
+        background: hsl(178, 90%, 38%);
+    }
+}
+
+form {
+    color: rgb(255, 255, 255);
+    display: inline;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    position: sticky;
+}
